@@ -1,5 +1,13 @@
-# Shellscripting info
- basic info for working with shellscripts
+# Shell scripting 101
+ basic info for working with shell scripts
+
+## Make the file.sh executable
+
+`chmod +x ./file.sh` 
+This gives file.sh execution permission for any profile 
+
+`chmod u+x ./file.sh`
+This only gives user permission to execute file.sh
 
 ## ;
 ; is like having a new line 
