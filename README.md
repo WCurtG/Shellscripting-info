@@ -108,7 +108,7 @@ echo "${var%a}"
 Results in 
 `pple orange`
 
-## sed command is used as a stream editor it doesn't modify the file perminatly by default. Demo found (here)[https://www.youtube.com/watch?v=QaGhpqRll_k]
+## sed command is used as a stream editor it doesn't modify the file perminatly by default. Demo found [here](https://www.youtube.com/watch?v=QaGhpqRll_k)
 
 ### The most common use is similar to find/replace in word 
 Stucture your sed `s` command 
@@ -168,4 +168,4 @@ sed " /^$/ d" .file-to-edit > .tmp &&
 mv .tmp .file-to-edit-2 &&
 mv -i .file-to-edit-2 diff-dir
 ```
-### More info on `mv` can be found (here)[https://linuxize.com/post/how-to-move-files-in-linux-with-mv-command/] 
+### More info on `mv` can be found [here](https://linuxize.com/post/how-to-move-files-in-linux-with-mv-command/) 
